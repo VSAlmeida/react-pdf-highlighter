@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-
 import { Rnd } from "react-rnd";
+
 import { getPageFromElement } from "../lib/pdfjs-dom";
 
-import "../style/AreaHighlight.css";
-
 import type { LTWHP, ViewportHighlight } from "../types";
+
+import "../style/AreaHighlight.css";
 
 interface Props {
   highlight: ViewportHighlight;

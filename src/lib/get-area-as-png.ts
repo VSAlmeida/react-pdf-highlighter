@@ -1,4 +1,5 @@
 import { isHTMLCanvasElement } from "./pdfjs-dom";
+
 import type { LTWHP } from "../types.js";
 
 const getAreaAsPNG = (canvas: HTMLCanvasElement, position: LTWHP): string => {

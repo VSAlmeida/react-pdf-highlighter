@@ -1,5 +1,7 @@
-import { viewportToScaled } from "../lib/coordinates";
 import React from "react";
+
+import { viewportToScaled } from "../lib/coordinates";
+
 import {
   IHighlight,
   LTWH,
