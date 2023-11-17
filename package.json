@@ -1,6 +1,6 @@
 {
   "name": "@vsalmeida/react-pdf-highlighter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Fork of react-pdf-highlighter",
   "author": "VSAlmeida",
   "contributors": [
@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8",
-    "pdfjs-dist": "2.16.105",
+    "pdfjs-dist": "3.4.120",
     "react-rnd": "^10.1.10"
   },
   "repository": {
