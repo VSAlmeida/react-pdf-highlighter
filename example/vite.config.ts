@@ -1,14 +1,10 @@
 import { defineConfig } from "vite";
-import reactRefresh from "@vitejs/plugin-react-refresh";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/react-pdf-highlighter/",
+  plugins: [react()],
   build: {
     outDir: "dist",
-  },
-  plugins: [reactRefresh()],
-  server: {
-    port: 3000,
   },
   define: {
     APP_VERSION: JSON.stringify(process.env.npm_package_version),
